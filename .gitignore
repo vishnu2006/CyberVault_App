@@ -1,0 +1,263 @@
+# ===========================================
+# CYBERVAULT APP - OPTIMIZED .GITIGNORE
+# ===========================================
+
+# 🚫 BUILD & COMPILATION ARTIFACTS (MAJOR SPACE SAVERS)
+/build/
+**/build/
+*.apk
+*.aab
+*.ipa
+*.app
+*.dill
+*.blob.bin
+*.cache.dill.track.dill
+*.jar
+*.aar
+*.so
+*.sym
+*.zip
+*.tar.gz
+*.tgz
+
+# 🚫 FLUTTER/DART SPECIFIC
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/pub/
+.packages
+.packages-overrides
+analysis_options.yaml
+
+# 🚫 IDE & EDITOR FILES
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.atom/
+.sublime-*
+.brackets-*
+.code-workspace
+
+# 🚫 OPERATING SYSTEM FILES
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 🚫 LOGS & TEMP FILES
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup
+*.old
+.history
+.buildlog/
+
+# 🚫 DEBUG & TESTING FILES
+/coverage/
+/test/
+**/test/
+*.test
+*.tests
+*.coverage
+*.lcov
+*.gcov
+*.profraw
+
+# 🚫 ANDROID SPECIFIC
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/.gradle/
+/android/captures/
+/android/app/build/
+/android/key.properties
+android/key.properties
+
+# 🚫 iOS SPECIFIC
+/ios/Flutter/.last_build_id
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeral/
+/ios/app/Pods/
+/ios/app/Podfile.lock
+
+# 🚫 WEB SPECIFIC
+/web/build/
+/web/assets/
+/web/packages/
+
+# 🚫 LINUX SPECIFIC
+/linux/build/
+/linux/flutter/ephemeral/
+
+# 🚫 MACOS SPECIFIC
+/macos/Flutter/Flutter.framework
+/macos/Flutter/Flutter.podspec
+/macos/Pods/
+/macos/.symlinks/
+/macos/Flutter/Generated.xcconfig
+/macos/Flutter/ephemeral/
+
+# 🚫 WINDOWS SPECIFIC
+/windows/build/
+/windows/flutter/ephemeral/
+/windows/runner/Build/
+
+# 🚫 FIREBASE & SECRETS (CRITICAL!)
+google-services.json
+GoogleService-Info.plist
+firebase.json
+firestore.rules
+*.p8
+*.mobileprovision
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+secrets.yaml
+.env
+.env.*
+config/
+**/secrets/
+
+# 🚫 DOCUMENTATION & DOCS
+/doc/
+/docs/
+**/doc/api/
+*.md.bak
+
+# 🚫 PACKAGE MANAGERS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 🚫 DATABASE FILES
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# 🚫 MEDIA & ASSETS (UNLESS ESSENTIAL)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+*.(large|big|huge)*
+
+# 🚫 ARCHIVES & COMPRESSED
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# 🚫 BACKUP & VERSION CONTROL
+*.backup
+*.bak
+*.old
+*.orig
+*.rej
+~*
+.~*
+*.swp
+*.swo
+
+# 🚫 PERFORMANCE & PROFILING
+*.profraw
+*.profdata
+*.trace
+*.json.profraw
+
+# 🚫 MISCELLANEOUS
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.pycache/
+__pycache__/
+*.so
+*.dylib
+*.dll
+*.exe
+*.msi
+*.dmg
+*.pkg
+
+# 🚫 CUSTOM CYBERVAULT EXCLUSIONS
+/migrate_working_dir/
+/.svn/
+/.swiftpm/
+/.metadata/
+*.symbols
+*.map.json
+executionHistory.bin
+native-debug-symbols.zip
+mapping.txt
+kernel_blob.bin.jar
+isolate_snapshot_data
+vcs-1/
+vcsMetadata/
+verified_library_resources/
+verifyReleaseResources/
+writeDebugAarMetadata/
+writeReleaseAarMetadata/
+writeDebugAppMetadata/
+writeDebugSigningConfigVersions/
+writeReleaseLintModelMetadata/
+xcschemes/
+xcshareddata/
+zip-cache/
+
+# ✅ KEEP THESE FILES (DO NOT IGNORE):
+# - pubspec.yaml (dependencies)
+# - README.md (documentation)
+# - ARCHITECTURE.md (project structure)
+# - FEATURES.md (feature list)
+# - lib/ (source code)
+# - assets/ (essential app assets only)
+# - android/ (source config only, no build)
+# - ios/ (source config only, no build)
+# - web/ (source config only, no build)
+# - linux/ (source config only, no build)
+# - macos/ (source config only, no build)
+# - windows/ (source config only, no build)

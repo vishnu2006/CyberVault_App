@@ -1,0 +1,12 @@
+rules_version = '2';
+// Security rules scaffold for encrypted files in Firebase Storage.
+// Path: vault/{userId}/{docId} — encrypted blobs only.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /vault/{userId}/{docId} {
+      // Users can only access their own encrypted blobs
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

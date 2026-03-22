@@ -1,0 +1,27 @@
+name: cyberfest_vault
+description: A secure vault app with PIN login, biometric unlock, and document storage.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0
+  cryptography: ^2.7.0
+  pdfx: ^2.6.0
+  local_auth: ^2.1.7
+  shared_preferences: ^2.2.2
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
