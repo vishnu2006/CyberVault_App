@@ -187,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Developer**: Vishnu
+- **Developer**: Vishnu Pandrangi
 - **GitHub**: [@vishnu2006](https://github.com/vishnu2006)
 - **Project**: [CyberVault_App](https://github.com/vishnu2006/CyberVault_App)
 
